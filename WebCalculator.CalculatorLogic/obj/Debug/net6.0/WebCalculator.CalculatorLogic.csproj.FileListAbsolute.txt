@@ -1,0 +1,12 @@
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/bin/Debug/net6.0/WebCalculator.CalculatorLogic.deps.json
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/bin/Debug/net6.0/WebCalculator.CalculatorLogic.dll
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/bin/Debug/net6.0/WebCalculator.CalculatorLogic.pdb
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.csproj.AssemblyReference.cache
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.AssemblyInfoInputs.cache
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.AssemblyInfo.cs
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.csproj.CoreCompileInputs.cache
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.dll
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/refint/WebCalculator.CalculatorLogic.dll
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/WebCalculator.CalculatorLogic.pdb
+/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/Debug/net6.0/ref/WebCalculator.CalculatorLogic.dll

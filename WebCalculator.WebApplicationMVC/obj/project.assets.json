@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {
+        "type": "package",
+        "build": {
+          "build/Selenium.WebDriver.ChromeDriver.targets": {}
+        }
+      },
+      "WebCalculator.CalculatorLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Selenium.WebDriver.ChromeDriver": "114.0.5735.9000"
+        },
+        "compile": {
+          "bin/placeholder/WebCalculator.CalculatorLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebCalculator.CalculatorLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Selenium.WebDriver.ChromeDriver/114.0.5735.9000": {
+      "sha512": "BgBGrbMiyhq+wZjWfKE0t5A+TVlY5kbUj8BcxPSMjuGOW2CinaMNZq567ZjxDNDvnqJBKmx2mPa5Hkjolt28Lg==",
+      "type": "package",
+      "path": "selenium.webdriver.chromedriver/114.0.5735.9000",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DefinePropertiesChromeDriver.targets",
+        "build/Selenium.WebDriver.ChromeDriver.targets",
+        "driver/linux64/chromedriver",
+        "driver/mac64/chromedriver",
+        "driver/mac64arm/chromedriver",
+        "driver/win32/chromedriver.exe",
+        "nupkg-icon.png",
+        "selenium.webdriver.chromedriver.114.0.5735.9000.nupkg.sha512",
+        "selenium.webdriver.chromedriver.nuspec"
+      ]
+    },
+    "WebCalculator.CalculatorLogic/1.0.0": {
+      "type": "project",
+      "path": "../WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj",
+      "msbuildProject": "../WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Selenium.WebDriver.ChromeDriver >= 114.0.5735.9000",
+      "WebCalculator.CalculatorLogic >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/deepshikaghale/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj",
+      "projectName": "WebCalculator.WebApplicationMVC",
+      "projectPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj",
+      "packagesPath": "/Users/deepshikaghale/.nuget/packages/",
+      "outputPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/deepshikaghale/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj": {
+              "projectPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Selenium.WebDriver.ChromeDriver": {
+            "target": "Package",
+            "version": "[114.0.5735.9000, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

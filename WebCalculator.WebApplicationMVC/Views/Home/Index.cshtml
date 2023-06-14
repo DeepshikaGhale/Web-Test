@@ -1,0 +1,31 @@
+﻿@model CalcOperation
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    var operatorItems = Html.GetEnumSelectList<CalcOperators>();
+}
+
+<form asp-action="Index" asp-controller="Home" method="post">
+    <div>
+       <label asp-for="Left">Left</label>
+           <input asp-for="Left"/> 
+    </div>
+    
+    <div>
+        <label asp-for="Right">Right</label>
+            <input asp-for="Right"/>
+    </div>
+    
+    <div>
+         <label asp-for="Operation" >Operation</label>
+            <select asp-for="Operation" asp-items="operatorItems"></select>
+    </div>
+   
+    <div>
+        <label asp-for="Result">Result</label>
+            <input asp-for="Result"/>
+    </div>
+    
+    <button type="submit" value="Calculate">Submit</button>
+</form>

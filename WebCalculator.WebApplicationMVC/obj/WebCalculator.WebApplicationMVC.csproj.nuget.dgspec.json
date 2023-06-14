@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj": {}
+  },
+  "projects": {
+    "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj",
+        "projectName": "WebCalculator.CalculatorLogic",
+        "projectPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj",
+        "packagesPath": "/Users/deepshikaghale/.nuget/packages/",
+        "outputPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deepshikaghale/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[114.0.5735.9000, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj",
+        "projectName": "WebCalculator.WebApplicationMVC",
+        "projectPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj",
+        "packagesPath": "/Users/deepshikaghale/.nuget/packages/",
+        "outputPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/deepshikaghale/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj": {
+                "projectPath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.CalculatorLogic/WebCalculator.CalculatorLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[114.0.5735.9000, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9ptfEU923kx+eWm7Jg2nsfvVzBTll53X11A/hPR5k0HGHhO7OFN4SyPeptby8qbMSTJWooJu4B58Y8jyg51gjg==",
+  "success": true,
+  "projectFilePath": "/Users/deepshikaghale/RiderProjects/WebCalculator.WebApplication/WebCalculator.WebApplicationMVC/WebCalculator.WebApplicationMVC.csproj",
+  "expectedPackageFiles": [
+    "/Users/deepshikaghale/.nuget/packages/selenium.webdriver.chromedriver/114.0.5735.9000/selenium.webdriver.chromedriver.114.0.5735.9000.nupkg.sha512"
+  ],
+  "logs": []
+}
